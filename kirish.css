@@ -1,0 +1,71 @@
+  /* AUTH — yonma-yon, z-index baland */
+  #auth {
+    position: relative;}
+
+  .auth-wrap {
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap; /* yonma-yon turadi, pastga tushmaydi */
+  }
+
+  .auth-card {
+    flex: 1;
+    min-width: 0; /* kichik ekranda ham siqilib yonma-yon qoladi */
+    background-color: #1e2333;
+    border: 1px solid #2a2f42;
+    border-radius: 8px;
+    padding: 20px;
+  }
+
+  .auth-card h3 { margin-top: 0; }
+
+  .auth-card label {
+    display: block;
+    font-size: 13px;
+    color: #7a8099;
+    margin: 8px 0 4px;
+  }
+
+  .auth-card input {
+    width: 100%;
+    padding: 8px;
+    background-color: #161b2a;
+    border: 1px solid #2a2f42;
+    color: #e8eaf0;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+
+  .auth-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: #4f8ef7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+    body {
+    margin: 0;
+    background-color: #0f1117;
+    color: #e8eaf0;
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.6;
+  }
+    section {
+    max-width: 760px;
+    margin: 30px auto;
+    background-color: #161b2a;
+    border: 1px solid #2a2f42;
+    border-radius: 10px;
+    padding: 25px;
+  }
+
+  section h2 {
+    color: #4f8ef7;
+    border-bottom: 1px solid #2a2f42;
+    padding-bottom: 10px;
+    margin-top: 0;
+  }
