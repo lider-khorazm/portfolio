@@ -1,0 +1,20 @@
+            - nomi: Setup Go muhiti
+  foydalanadi: actions/setup-go@v6.4.0
+  bilan:
+    # Yuklab olish (agar kerak bo'lsa) va foydalanish uchun Go versiyasi. Semver spetsifikatsiyasi va diapazonlarini qo'llab-quvvatlaydi. Ushbu parametrni bitta qo'shtirnoq ichiga olganingizga ishonch hosil qiling.
+    versiyasi: # ixtiyoriy
+    # go.mod, go.work, .go-version yoki .tool-versions fayliga yo'l.
+    go-version-fayl: # ixtiyoriy
+    # Agar siz amal har doim versiya spetsifikatsiyasiga mos keladigan eng so'nggi mavjud versiyani tekshirishini istasangiz, ushbu parametrni rost ga o'rnating
+    oxirgi tekshirish: # ixtiyoriy
+    # Go-versiyalaridan Go tarqatmalarini olish uchun ishlatiladi. Standart qiymat mavjud bo'lgani uchun, bu odatda foydalanuvchi tomonidan ta'minlanmaydi. Ushbu amalni github.com saytida ishga tushirishda standart qiymat yetarli bo'ladi. GHESda ishga tushirishda, agar siz tezlikni cheklayotgan bo'lsangiz, github.com uchun shaxsiy kirish tokenini uzatishingiz mumkin.
+    token: # ixtiyoriy, standart qiymati ${{ github.server_url == 'https://github.com' && github.token || '' }}
+    # Keshlash kerak yoki kerak emasligini aniqlash uchun ishlatiladi. Agar keshlashni yoqmoqchi bo'lsangiz, rost ga o'rnating.
+    kesh: # ixtiyoriy, standart qiymat rost
+    # Bog'liqlik fayliga yo'lni belgilash uchun ishlatiladi (masalan, go.mod, go.sum)
+    keshga bog'liqlik yo'li: # ixtiyoriy
+    # Go uchun maqsadli arxitektura. Misollar: x86, x64. Sukut bo'yicha tizim arxitekturasidan foydalanadi.
+    arxitektura: # ixtiyoriy
+    # Go tarqatmalarini yuklab olish uchun maxsus asosiy URL. Bundan Go ni oynadan yoki maxsus manbadan yuklab olish uchun foydalaning. Standart qiymati "https://go.dev/dl" ga o'rnatiladi. GO_DOWNLOAD_BASE_URL muhit o'zgaruvchisi orqali ham o'rnatilishi mumkin. Kirish muhit o'zgaruvchisidan ustun turadi.
+    go-download-base-url: # ixtiyoriy
+          
